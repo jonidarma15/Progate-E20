@@ -128,7 +128,7 @@ header {
 
 
 
-.lesson-wrapper {
+.kelompok-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -146,16 +146,16 @@ header {
   font-weight: normal;
 }
 
-.lesson {
+.kelompok {
   float: left;
   width: 20%;
 }
 
-.lesson-icon {
+.kelompok-icon {
   position: relative;
 }
 
-.lesson-icon p {
+.kelompok-icon p {
   position: absolute;
   top: 44%;
   width: 100%;

@@ -163,7 +163,7 @@ header {
 
 .kelompok-icon:hover {
   font-weight: bold;
-  animation: mymove 3s;
+  animation: mymove 3s infinite;
 }
 
 .kelompok-icon p {

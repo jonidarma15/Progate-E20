@@ -162,7 +162,6 @@ header {
 }
 
 .kelompok-icon:hover {
-  color: black;
   font-weight: bold;
   animation: mymove 3s;
 }

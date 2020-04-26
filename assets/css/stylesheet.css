@@ -35,7 +35,6 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-  animation: mymove 5s infinite;
 }
 
 @keyframes mymove {
@@ -160,6 +159,7 @@ header {
 
 .kelompok-icon {
   position: relative;
+  animation: mymove 5s infinite;
 }
 
 .kelompok-icon p {

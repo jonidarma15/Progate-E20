@@ -172,6 +172,11 @@ header {
   color: white;
 }
 
+.kelompok-icon p:hover {
+  color: black;
+  font-weight: bold;
+}
+
 .text-contents {
   width: 80%;
   display: inline-block;

@@ -15,6 +15,19 @@ a {
   clear: left;
 }
 
+@keyframes mymove {
+  0%   {top: 0px;}
+  50%  {top: -50px;}
+  100% {top: 0px;}
+}
+
+@keyframes myhover {
+  0%   {top: 0px;}
+  50%  {top: -50px;}
+  100% {top: 0px;}
+}
+
+
 .container {
   max-width: 1170px;
   width: 100%;
@@ -35,12 +48,6 @@ a {
   font-size: 45px;
   letter-spacing: 5px;
   margin-bottom: 10px;
-}
-
-@keyframes mymove {
-  0%   {top: 0px;}
-  50%  {top: -50px;}
-  100% {top: 0px;}
 }
 
 .top-wrapper p {
@@ -159,11 +166,12 @@ header {
 
 .kelompok-icon {
   position: relative;
+  animation: mymove 3s;
 }
 
 .kelompok-icon:hover {
   font-weight: bold;
-  animation: mymove 3s infinite;
+  animation: myhover 5s infinite;
 }
 
 .kelompok-icon p {

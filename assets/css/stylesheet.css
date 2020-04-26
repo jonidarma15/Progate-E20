@@ -162,6 +162,8 @@ header {
 }
 
 .kelompok-icon:hover {
+  color: black;
+  font-weight: bold;
   animation: mymove 3s;
 }
 
@@ -170,11 +172,6 @@ header {
   top: 44%;
   width: 100%;
   color: white;
-}
-
-.kelompok-icon p:hover {
-  color: black;
-  font-weight: bold;
 }
 
 .text-contents {

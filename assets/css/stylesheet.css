@@ -159,7 +159,10 @@ header {
 
 .kelompok-icon {
   position: relative;
-  animation: mymove 5s infinite;
+}
+
+.kelompok-icon:hover {
+  animation: mymove 5s;
 }
 
 .kelompok-icon p {
